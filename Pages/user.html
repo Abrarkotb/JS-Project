@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User page </title>
+    <link rel="icon" type="image/icon" href="../Media/cat2.png" />
+    <link rel="stylesheet" href="../CSS/all.css" />
+    <link rel="stylesheet" href="../CSS/animate.css" />
+    <link rel="stylesheet" href="../CSS/bootstrap.css" />
+    <link rel="stylesheet" href="../CSS/bootstrap.css.map" />
+    <link rel="stylesheet" href="../CSS/pats.css" />
+</head>
+<body>
+  <div>
+
+  <nav class="navbar bg-light navbar-dark sticky-top flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">Pats Shop
+      <img class="img_user"src="../Media/AS000765_00.gif">
+    </a>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+        <div class="sidebar-sticky pt-3">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">
+                <span data-feather="home"></span>
+              ###<span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/Home.html">
+                <span data-feather="file"></span>
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/Settings.html">
+                Profile Update
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/Categores .html">
+                <span data-feather="shopping-cart"></span>
+                Categores
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Pages/About.html">
+                <span data-feather="users"></span>
+                About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/">
+                <span data-feather="layers"></span>
+                Follow Us
+              </a>
+            </li>
+          </ul>
+  
+          <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            <span>Saved reports</span>
+            <a class="d-flex align-items-center text-muted" href="#" aria-label="Add a new report">
+              <span data-feather="plus-circle"></span>
+            </a>
+          </h6>
+          <ul class="nav flex-column mb-2">
+            <li id="updat" class="nav-item" onclick="">
+              <a class="nav-link" href="#">
+                <span data-feather="file-text"></span>
+                update Password 
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="file-text"></span>
+                FeedBacks
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  
+   <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h1 class="h2">Welcome </h1>
+          <div class="btn-toolbar mb-2 mb-md-0">
+            <div class="btn-group mr-2">
+              <button type="button" id="logout_user" class="btn btn-sm btn-outline-secondary">Log out </button>
+            </div>
+          </div>
+        </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="card">
+          <div class="card_header">
+           <h1 class="h1_user"> Change Password </h1>
+           <div class="card_body">
+            <form>
+              <div class="input-group mb-1 ml-3">
+                <div>
+                  <h4>Enter Old Password</h4>
+                <input type="password" value="" id="pass_old">
+                <div >
+                  <input type="checkbox" onclick="myFunction()">
+                  <span class="ml-2">Show Password</span>
+                </div>
+                <br><br>
+               <h4>Enter New Password</h4>
+                <input type="password" value="" id="pass_new">
+                <div >
+                  <input type="checkbox" onclick="myFunction_2()">
+                  <span class="ml-2">Show Password</span>
+                </div>
+                <br><br>
+                <h4>Re-write New password</h4>
+                <input type="password" value="" id="re_writepass">
+               </div>
+                </div>
+              </div>
+              </div>
+              <input type="submit" value="submit" id="subnew_pass" onclick="Function()">
+            </form>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+    </div>
+  </div>
+  <script src="../JS/user.js"></script>
+</body>
+</html>
